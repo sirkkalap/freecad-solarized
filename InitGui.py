@@ -1,6 +1,7 @@
 # SPDX-License-Identifier: LGPL-2.1-or-later
 """FreeCAD GUI addon entry point."""
 import FreeCADGui as Gui
+from pathlib import Path
 from solarized import theme
 
 
@@ -25,6 +26,8 @@ Gui.addCommand('Solarized_Restore', ThemeCommand(restore=True))
 
 
 class SolarizedWorkbench(Gui.Workbench):
+    Icon = str(Path(theme.__file__).resolve().parents[1] /
+               'resources' / 'icons' / 'solarized.svg')
     MenuText = 'Solarized'
     ToolTip = 'Solarized colors and readable selection for FreeCAD'
 

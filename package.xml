@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+  <name>FreeCAD Solarized</name>
+  <version>0.1.0</version>
+  <date>2026-10-16</date>
+  <description>Solarized Dark colors with clear selection highlighting and reversible appearance settings.</description>
+  <maintainer email="sirpete@iki.fi">Petri Sirkkala</maintainer>
+  <license file="LICENSE">LGPL-2.1-or-later</license>
+  <license file="LICENSES/Solarized-MIT.txt">MIT</license>
+  <icon>resources/icons/solarized.svg</icon>
+  <url type="repository" branch="main">https://github.com/sirkkalap/freecad-solarized</url>
+  <url type="readme">https://github.com/sirkkalap/freecad-solarized/blob/main/README.md</url>
+  <url type="bugtracker">https://github.com/sirkkalap/freecad-solarized/issues</url>
+  <freecadmin>1.1.0</freecadmin>
+  <content>
+    <workbench>
+      <name>FreeCAD Solarized</name>
+      <classname>SolarizedWorkbench</classname>
+      <subdirectory>./</subdirectory>
+      <icon>resources/icons/solarized.svg</icon>
+    </workbench>
+  </content>
+</package>

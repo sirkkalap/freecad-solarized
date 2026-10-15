@@ -1,0 +1,10 @@
+<!-- SPDX-License-Identifier: LGPL-2.1-or-later -->
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>FreeCAD Solarized</title>
+  <rect x="1" y="1" width="30" height="30" rx="7" fill="#002b36" stroke="#93a1a1"/>
+  <g stroke="#b58900" stroke-width="2" stroke-linecap="round">
+    <path d="M16 5v3m0 16v3M5 16h3m16 0h3M8 8l2 2m12 12 2 2M8 24l2-2M22 10l2-2"/>
+  </g>
+  <circle cx="16" cy="16" r="6" fill="#b58900"/>
+  <path d="M16 10a6 6 0 0 1 0 12z" fill="#cb4b16"/>
+</svg>
