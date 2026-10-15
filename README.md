@@ -51,7 +51,7 @@ are the baseline if they were already active when applying this addon.
 
 ## Development
 
-`InitGui.py` registers the workbench; `solarized/theme.py` applies and restores
+`InitGui.py` delegates startup to `solarized/gui.py`, which registers the workbench; `solarized/theme.py` applies and restores
 preferences; `solarized/palette.py` contains the palette. No automated tests
 have been added. Run and inspect UI behavior inside FreeCAD when requested.
 The addon never edits CAD geometry or saves documents.
